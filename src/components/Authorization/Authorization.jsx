@@ -58,7 +58,7 @@ const Authorization = ({ clientId, redirectUri }) => {
   return (
     <div className="px-4 py-2 m-6  bg-gradient-to-r from-rose-600 to-violet-600 rounded-lg text-white">
       <Button 
-      className="font-bold" 
+      className="font-bold cursor-pointer" 
       onClick={handleAuthorization}
         children={t("authorize")}
       />
